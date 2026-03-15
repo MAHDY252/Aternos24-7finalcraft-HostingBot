@@ -6,16 +6,16 @@
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
-    "version": "",
+    "ip": "TheFinall.aternos.me",
+    "port": 30969,
+    "version": "1.21.10",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "x": -500,
+    "y": 141,
+    "z": -988
   },
   "utils": {
     "auto-auth": {
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "الانسان يمدح خيرا من باطل ويذم شرا من حق",
+        "اسمع هذا الشعر: سلمتك الشاتنات حتة تحميني وتالي بالشاتنات ترميني؟ وسفة",
+        "اني بس بوت مال مهدي اشغل السيرفر 24ساعة"
       ]
     },
     "chat-log": true,
@@ -64,14 +64,14 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
